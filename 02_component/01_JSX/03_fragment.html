@@ -58,12 +58,12 @@
         // );
 
         // 5. React.Fragment의 축약 문법인 <></>로 감싸서 사용할 수 있다.(Babel 17이상부터 지원함)
-        // const element = (
-        //     <>
-        //         <h1>Hello, {user.name}</h1>
-        //         <h3>phone : {user.phone}</h3>
-        //     </>
-        // );
+        const element = (
+            <>
+                <h1>Hello, {user.name}</h1>
+                <h3>phone : {user.phone}</h3>
+            </>
+        );
 
         ReactDOM.createRoot(document.getElementById('root')).render(element);
     </script>
